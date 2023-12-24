@@ -10,7 +10,7 @@ typedef struct bookinfo
 
 int main(int argc, char const *argv[])
 {
-    bookinfo book[3];  //it maks an array of 3 structure variable.
+    bookinfo book[3];  //it maks an array of 3 structure variable.  //if we not use typedef then write struct bookinfo book[30];
     int i;
     printf("enter the name,tpage and price line by line :\n");
 

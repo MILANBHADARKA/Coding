@@ -24,7 +24,7 @@ int main(int argc, char const *argv[])
 
    /*or we can give antier structure to other structure like this*/
 
-   b=a;
+   b=a;  // this will copy all information of a in b;  // we cannot compare to antier structure like b==a; this is an error.
 
    printf("information of b \n");
    printf("%s\n",b.name);

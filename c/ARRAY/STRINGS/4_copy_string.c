@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
     // s2[i]='\0';                 //this line is vary important. 
 
 
-    strcpy(s2,s1);       //copy s1 string to s2 string.
+    strcpy(s2,s1);       //copy s1 string in s2 string.
 
     printf("s2 is \n");
     puts(s2);

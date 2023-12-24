@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
 
     printf("student1 id=%d\n", student1.id);
     printf("student1 name=%s\n", student1.name);
-    printf("student1 marks=%d\n", student1.marks);
+    printf("student1 marks=%d\n\n", student1.marks);
 
     struct info student2; // declare variable student2 of info structure.
 
@@ -28,7 +28,7 @@ int main(int argc, char const *argv[])
     printf("enter the marks : ");
     scanf("%d", &student2.marks);
 
-    printf("student2 id=%d\n", student2.id);
+    printf("\nstudent2 id=%d\n", student2.id);
     printf("student2 name=%s\n", student2.name);
     printf("student2 marks=%d\n", student2.marks);
 
