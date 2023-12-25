@@ -1,3 +1,10 @@
+// * * * * *
+// * * * *
+// * * *
+// * *
+// *
+//n=5
+
 #include<stdio.h>
 int main(int argc, char const *argv[])
 {
