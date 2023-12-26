@@ -39,6 +39,6 @@ int main(int argc, char const *argv[])
     printf("id=%d\n", s1.id);
     printf("name=%s\n", s1.name);
     printf("marks=%d\n", s1.marks);
-
+    
     return 0;
 }
