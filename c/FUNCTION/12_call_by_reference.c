@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
 
     printf("after calling fun a=%d\n",a);
 
-    // in output we see that if we change value of a in another function than print in main function value of a would be NOT CHANGE this iscall by value.
-    //in call by value we copy value og actual argument in formal argument.
+    // in output we see that if we change value of a in another function than print in main function value of a would be CHANGE this is call by referance.
+    //in call by reference we copy address of actual argument in formal argument. so if we chage value in another function that means we change value at the address of actual argument.
     return 0;
 }

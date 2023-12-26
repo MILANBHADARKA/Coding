@@ -34,7 +34,6 @@ int main(int argc, char const *argv[])
 
 
 
-    puts(s1);
 
     return 0;
 }
