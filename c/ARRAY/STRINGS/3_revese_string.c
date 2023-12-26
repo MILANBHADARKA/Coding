@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
     // }
     // printf("%d\n",length);
 
-    for(i=length-1;i>=0;i--)
+    for(i=length;i>=0;i--)
     {
         printf("%c",str[i]);
     }

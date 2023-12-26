@@ -2,7 +2,7 @@
 int main(int argc, char const *argv[])
 {   
     int i,j;
-    char arr[5]={'a','t','l','a','s'};   //in this style computer NOT take auto null char at the end of array.
+    char arr[]={'a','t','l','a','s','\0'};   //in this style computer NOT take auto null char at the end of array.
 
     printf("%c\n",arr[1]);
 
