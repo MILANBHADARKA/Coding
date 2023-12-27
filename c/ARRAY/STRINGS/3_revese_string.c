@@ -10,6 +10,7 @@ int main(int argc, char const *argv[])
     puts(str);
 
     int i,j,length;
+    char temp;
 
     length=strlen(str);   //strlen() IS for find length of string
 
@@ -20,10 +21,18 @@ int main(int argc, char const *argv[])
     // }
     // printf("%d\n",length);
 
-    for(i=length;i>=0;i--)
+    // for(i=length;i>=0;i--)
+    // {
+    //     printf("%c",str[i]);
+    // }
+
+     for(i=0,j=length-1;i<j;i++,j--)
     {
-        printf("%c",str[i]);
+        temp=str[j];
+        str[j]=str[i];
+        str[i]=temp;
     }
+    puts(str);
 
     return 0;
 }
