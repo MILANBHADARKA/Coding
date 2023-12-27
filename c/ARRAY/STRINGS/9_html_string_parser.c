@@ -5,8 +5,7 @@ void spaceremove(char string[])
 {
     int i;
     int index = 0;
-    for (i = 0; string[i] == ' '; i++)
-        ;
+    for (i = 0; string[i] == ' '; i++);
 
     for (; string[i] != '\0'; i++)
     {
