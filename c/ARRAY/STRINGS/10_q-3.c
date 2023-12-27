@@ -1,3 +1,8 @@
+//reverse string word by word
+// if input is "this is cat"
+//output 1. "cat is this"
+//output 2. "siht si tac"
+
 #include <stdio.h>
 #include <string.h>
 int main(int argc, char const *argv[])
@@ -7,27 +12,6 @@ int main(int argc, char const *argv[])
     char ans[100];
     printf("enter the string : ");
     gets(string);
-
-    int i,j,k,count;
-
-    int length=strlen(string);
-    i=length;
-
-    while(i>=0)
-    {
-        if(string[i]!=' ')
-        {
-            i--;
-        }
-
-        j=i;
-
-        else
-        {
-            
-        }
-
-    }
 
     return 0;
 }
