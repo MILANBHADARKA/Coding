@@ -3,26 +3,32 @@
 int main(int argc, char const *argv[])
 {
     char string[100];
+    char temp[100];
+    char ans[100];
     printf("enter the string : ");
     gets(string);
 
-    char ans[100];
-    int i,j,k;
-    int length=strlen(string)-1;
+    int i,j,k,count;
 
-    for(i=0;i<length;i++)
+    int length=strlen(string);
+    i=length;
+
+    while(i>=0)
     {
-        for(j=0;i<length;i++,j++)
+        if(string[i]!=' ')
         {
-            if(string[i]==' ' || string[i]=='\0')
-            {
-                break;
-            }
-            ans[j]=string[i];
+            i--;
         }
+
+        j=i;
+
+        else
+        {
+            
+        }
+
     }
 
-    puts(ans);
     return 0;
 }
 
