@@ -1,4 +1,4 @@
-//find total number of pairs in the arrays whose sum is equaln to thr givin number.
+//find total number of pairs in the arrays whose sum is equaln to the givin number.
 
 #include<stdio.h>
 int main(int argc, char const *argv[])
