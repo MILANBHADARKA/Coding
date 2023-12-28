@@ -14,8 +14,7 @@ void spaceremove(char string[])
     }
     string[index] = '\0';
 
-    for (i = strlen(string) - 1; string[i] == ' '; i--)
-        ;
+    for (i = strlen(string) - 1; string[i] == ' '; i--);
 
     string[i + 1] = '\0';
 }
