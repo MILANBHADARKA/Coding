@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/bhada/Desktop/Coding/c/ARRAY/STRINGS",
-      "program": "c:/Users/bhada/Desktop/Coding/c/ARRAY/STRINGS/build/Debug/outDebug",
+      "cwd": "c:/Users/bhada/Desktop/Coding/c/ARRAY/2. STRINGS",
+      "program": "c:/Users/bhada/Desktop/Coding/c/ARRAY/2. STRINGS/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
