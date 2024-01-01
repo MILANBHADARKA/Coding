@@ -4,21 +4,21 @@ switch statement is alternate of else if statement
 
 syntex:
 switch(integral expression)
-case constant1:
-    do this;
-    break;
-case constant2:
-    do this
-    break;
-    .
-    .
-    .
-    .
+{
+    case constant1:
+        do this;
+        break;
+    case constant2:
+        do this
+        break;
+        .
+        .
+        .
+        .
 
-default:
-    do this;
-
-
+    default:
+        do this;
+}
 */
 
 #include<stdio.h>
