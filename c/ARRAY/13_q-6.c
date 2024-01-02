@@ -31,10 +31,10 @@ int main(int argc, char const *argv[])
             for(k=j+1;k<n;k++)
             {
                 if(a[i]+a[j]+a[k]==x)
-            {   
+                {   
                 printf("%d+%d+%d=%d\n",a[i],a[j],a[k],x);
                 count++;
-            }
+                }
             }
         }
     }

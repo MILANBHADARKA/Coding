@@ -19,7 +19,7 @@ int main(int argc, char const *argv[])
     then max get garbage value.*/
 
     int max = a[0];
-    int smax = INT_MIN; // for n=5 and element like 5 5 5 3 2 if we got secondmax =arr[i] then in this array we got wrong answer so.
+    int smax = INT_MIN; // for n=5 and element like 5 5 5 3 2 if we got secondmax =arr[0] then in this array we got wrong answer so.
 
     for (i = 0; i < n; i++)   // to check all element of array is same or not.
     {

@@ -26,7 +26,7 @@ int main(int argc, char const *argv[])
             {
                 for(k=0;k<n;k++)
                 {
-                    if(b[k]==i)
+                    if(b[k]==i)  //this condition will not re print the index.
                     {
                         fact=1;
                         break;
