@@ -6,7 +6,8 @@ int main(int argc, char const *argv[])
     scanf("%d",&n);
 
     int a[n];
-    int i,j;
+    int b[n];
+    int i,j,k;
     printf("enter the element of array : \n");
 
     for(i=0;i<n;i++)
@@ -15,13 +16,29 @@ int main(int argc, char const *argv[])
     }
 
     int flag=0;
+    
     for(i=0;i<n;i++)
-    {
+    {   
+        int fact=0;
         for(j=i+1;j<n;j++)
         {
             if(a[i]==a[j])
             {
-                printf("find duplicate of %d at index %d\n",a[i],j);
+                for(k=0;k<n;k++)
+                {
+                    if(b[k]==i)
+                    {
+                        fact=1;
+                        break;
+                    }
+                }
+                if(fact==0)
+                {
+                    printf("find duplicate of %d at index %d\n",a[i],j);
+                }
+
+                b[i]=i;
+
                 flag=1;
             }
         }
