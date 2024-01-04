@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milan's website</title>
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h3>FORM</h3>
+    </header>
+
+    <body>
+
+        <!-- here action is in backhand part so ingnore it's -->
+        <form action="">
+
+            <!-- example of text input -->
+            <p><b>Name : </b></p>
+            <label for="name">
+            <input type="text" placeholder="Type here" id="name">
+            </label><br><br>
+
+            <p><b>Password : </b></p>
+            <label for="password">
+            <input type="password" placeholder="type password" id="password">
+            </label><br><br>
+
+            <!-- example of redio button input -->
+            <p><b>Choose Class</b></p>
+            <label for="101">
+            <input type="radio" value="class 11th" name="class" id="101">Class 11th
+            </label><br>
+            <!-- use of lable is for To differentiate all button for code reader and second reason of use lable tag is that we can tikmark redio button via click on text  -->
+            <label for="102">
+            <input type="radio" value="class 12th" name="class" id="102">Class 12th
+            </label><br><br>
+
+            <!-- example of checkbox input -->
+            <p><b>Choose Subject</b></p>
+            <label for="math">
+                <input type="checkbox" name="subject" id="math">Math's
+            </label><br>
+            <label for="physics">
+                <input type="checkbox" name="subject" id="physics">Physics
+            </label><br>
+            <label for="chemistry">
+                <input type="checkbox" name="subject" id="chemistry">Chemistry
+            </label><br>
+            <label for="biology">
+                <input type="checkbox" name="subject" id="biology">Biology
+            </label><br><br>
+            
+            <!-- example of dropdown menu -->
+            <p><b>Select City</b></p>
+            <select name="citynames" id="city">
+                <option value="select city">Select City</option>
+                <option value="kutiyana">Kutiyana</option>
+                <option value="junagadh">Junagadh</option>
+                <option value="nadiad">Nadiad</option>
+                <option value="ahmedabad">Ahmedabad</option>
+                <option value="rajkot">Rajkot</option>
+            </select><br><br>
+
+            <!-- example of textarea input -->
+            <label for="feedback">
+                <textarea name="feedback" id="feedback" cols="30" rows="10">Write Feedback
+                </textarea>
+            </label><br><br>
+
+            <input type="submit" name="submit" id="submit">
+
+        </form>
+    </body>
+
+    <footer>
+        <p><b>Thankyou</b></p>
+    </footer>
+</body>
+</html>
