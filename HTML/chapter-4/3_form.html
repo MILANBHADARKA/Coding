@@ -19,20 +19,20 @@
 
             <div> <!--this is division is for example of text-->
                 <label for="name">NAME : </label>
-                <input type="text" placeholder="ENTER FULL NAME">
+                <input type="text" placeholder="ENTER FULL NAME" required>  <!--here required means this info must be added before submitattion-->
             </div><br><br>
 
             <div>   <!--this is division is for example of password-->
                 <label for="password">PASSWORD : </label>
-                <input type="password" id="password" placeholder="ENTER YOUR PASSWORD">
+                <input type="password" id="password" placeholder="ENTER YOUR PASSWORD" required>
             </div><br><br>
 
             <div>  <!--this is division is for example of radio button-->
                 <span><b><u>Choose gender</u></b></span><br><br>
                 <label for="male">MALE </label>
-                <input type="radio" id="male" name="gender" value="male">
+                <input type="radio" id="male" name="gender" value="male" required>
                 <label for="female">FEMALE </label>
-                <input type="radio" id="female" name="gender" value="female">
+                <input type="radio" id="female" name="gender" value="female" required>
             </div><br><br>
             
             <div>   <!--this is division is for example of checkbox-->
@@ -49,7 +49,7 @@
 
             <div>   <!--this is division is for example of drop down menu-->
                 <label for="city">SELECT CITY : </label>
-                <select name="city names" id="city">
+                <select name="city names" id="city" required>
                     <option value="kutiyana">Kutiyana</option>
                     <option value="junagadh">Junagadh</option>
                     <option value="rajkot">Rajkot</option>
